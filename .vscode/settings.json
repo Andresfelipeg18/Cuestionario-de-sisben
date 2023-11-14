@@ -4,5 +4,6 @@
         "formul",
         "Pasaporte",
         "sisben"
-    ]
+    ],
+    "liveServer.settings.port": 5502
 }

@@ -7,57 +7,91 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!--jhojan-->
     <header>
+        <img class= "logo" src="imagenes/logo.jpg">
         <div class="caja">
-            <h1 class="log"><img src="imagenes/logo.jpg"></h1>
-                <div>
-                    <form action="formul.html" method="get"></form>
-                    <label for="fecha">Fecha: </label><br>
-                    <input type="date" id="fecha" placeholder="2023-11-14"><br>
-                    <label for="municipio">Municipio:</label><br>
-                    <input type="select" id="municipio" placeholder="Quindio">
-                    <select id="muni" style="float: left;">
-                        <option value="Antioquia">Antioquia</option>
-                        <option value="Arauca">Arauca</option>
-                        <option value="Atlántico">Atlántico</option>
-                        <option value="Bolívar">Bolívar</option>
-                        <option value="Boyacá">Boyacá</option>
-                        <option value="Caldas">Caldas</option>
-                        <option value="Caquetá">Caquetá</option>
-                        <option value="Casanare">Casanare</option>
-                        <option value="Cauca">Cauca</option>
-                        <option value="Cesar">Cesar</option>
-                        <option value="Chocó">Chocó</option>
-                        <option value="Córdoba">Córdoba</option>
-                        <option value="Cundinamarca">Cundinamarca</option>
-                        <option value="Guainía">Guainía</option>
-                        <option value="Guaviare">Guaviare</option>
-                        <option value="Huila">Huila</option>
-                        <option value="La Guajira">La Guajira</option>
-                        <option value="Magdalena">Magdalena</option>
-                        <option value="Meta">Meta</option>
-                        <option value="Nariño">Nariño</option>
-                        <option value="Norte de Santander">Norte de Santander</option>
-                        <option value="Putumayo">Putumayo</option>
-                        <option value="Quindío">Quindío</option>
-                        <option value="Risaralda">Risaralda</option>
-                        <option value="San Andrés y Providencia">San Andrés y Providencia</option>
-                        <option value="Santander">Santander</option>
-                        <option value="Sucre">Sucre</option>
-                        <option value="Tolima">Tolima</option>
-                        <option value="Valle del Cauca">Valle del Cauca</option>
-                        <option value="Vaupés">Vaupés</option>
-                        <option value="Vichada">Vichada</option>
-                      </select>
-                    <label for="departameto">Departamento:</label>
-                    <input type="text" id="departamento" placeholder="Armenia">
-                    <select id="dep" style="float: left;">
-                        <option value="Antioquia">Antioquia</option>
-                    </select>
-                </div>
-    </header>
 
+            <form action="formul.html" method="get">
+            <br>
+            <label for="fecha"><ul><li><strong>Fecha:</strong></li></ul></label>
+            <input class = "date" type="date" id="fecha" placeholder="2023-11-14">
+            <br>
+            <label for="Departamentos"><ul><li><strong>Departamento:</strong></li></ul></label>
+            <select class = "depar" id="depar">
+                <option value="Antioquia">Antioquia</option>
+                <option value="Arauca">Arauca</option>
+                <option value="Atlántico">Atlántico</option>
+                <option value="Bolívar">Bolívar</option>
+                <option value="Boyacá">Boyacá</option>
+                <option value="Caldas">Caldas</option>
+                <option value="Caquetá">Caquetá</option>
+                <option value="Casanare">Casanare</option>
+                <option value="Cauca">Cauca</option>
+                <option value="Cesar">Cesar</option>
+                <option value="Chocó">Chocó</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Cundinamarca">Cundinamarca</option>
+                <option value="Guainía">Guainía</option>
+                <option value="Guaviare">Guaviare</option>
+                <option value="Huila">Huila</option>
+                <option value="La Guajira">La Guajira</option>
+                <option value="Magdalena">Magdalena</option>
+                <option value="Meta">Meta</option>
+                <option value="Nariño">Nariño</option>
+                <option value="Norte de Santander">Norte de Santander</option>
+                <option value="Putumayo">Putumayo</option>
+                <option value="Quindío">Quindío</option>
+                <option value="Risaralda">Risaralda</option>
+                <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                <option value="Santander">Santander</option>
+                <option value="Sucre">Sucre</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Valle del Cauca">Valle del Cauca</option>
+                <option value="Vaupés">Vaupés</option>
+                <option value="Vichada">Vichada</option>
+            </select>
+            <br>
+            <label for="municipio"><ul><li><strong>Municipio:</strong></li></ul></label>
+            <select class= "muni" id="muni">
+                <option value="Leticia">Amazonas - Leticia</option>
+                <option value="Medellín">Antioquia - Medellín</option>
+                <option value="Arauca">Arauca - Arauca</option>
+                <option value="Barranquilla">Atlántico - Barranquilla</option>
+                <option value="Bogotá">Bogotá, D.C. - Bogotá</option>
+                <option value="Cartagena">Bolívar - Cartagena</option>
+                <option value="Tunja">Boyacá - Tunja</option>
+                <option value="Manizales">Caldas - Manizales</option>
+                <option value="Florencia">Caquetá - Florencia</option>
+                <option value="Yopal">Casanare - Yopal</option>
+                <option value="Popayán">Cauca - Popayán</option>
+                <option value="Valledupar">Cesar - Valledupar</option>
+                <option value="Quibdó">Chocó - Quibdó</option>
+                <option value="Montería">Córdoba - Montería</option>
+                <option value="Bogotá">Cundinamarca - Bogotá</option>
+                <option value="Inírida">Guainía - Inírida</option>
+                <option value="San José del Guaviare">Guaviare - San José del Guaviare</option>
+                <option value="Neiva">Huila - Neiva</option>
+                <option value="Riohacha">La Guajira - Riohacha</option>
+                <option value="Santa Marta">Magdalena - Santa Marta</option>
+                <option value="Villavicencio">Meta - Villavicencio</option>
+                <option value="Pasto">Nariño - Pasto</option>
+                <option value="Cúcuta">Norte de Santander - Cúcuta</option>
+                <option value="Mocoa">Putumayo - Mocoa</option>
+                <option value="Armenia">Quindío - Armenia</option>
+                <option value="Pereira">Risaralda - Pereira</option>
+                <option value="San Andrés">San Andrés y Providencia - San Andrés</option>
+                <option value="Bucaramanga">Santander - Bucaramanga</option>
+                <option value="Sincelejo">Sucre - Sincelejo</option>
+                <option value="Ibagué">Tolima - Ibagué</option>
+                <option value="Cali">Valle del Cauca - Cali</option>
+                <option value="Mitú">Vaupés - Mitú</option>
+                <option value="Puerto Carreño">Vichada - Puerto Carreño</option>
+            </select>
+        </div>
+        
+    </header>
+<!--jhojan-->
 
 
 
@@ -85,7 +119,7 @@
                 <input type="checkbox">
                 <label for="">Tipo documento</label>
                 <select name="" id="">
-                    <option value=""></option>
+                <option value=""></option>
                 <option value="">T.I</option>
                 <option value="">C.C</option>
                 <option value="">Pasaporte</option>
