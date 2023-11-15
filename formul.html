@@ -138,80 +138,141 @@
 
 
         </form>
-
-
-
-
+<!-- brian -->
+<div class="formulario-maketa">
+    <form action="formul.html" method="post">
+        
     
-
-
-
-    <div>
-        <h1>DETALLE DE LA SOLICITUD</h1>
-        <form action="formul.html" method="post">
-        <label for="inclusion">TIPO DE SOLICITUD: </label> 
-        <label for="inclusion">Inclusion - modificacion- retiro</label>
-        <input type="checkbox"> 
-        <label class="inclusion">ENCUESTA NUEVA: </label> 
-        <label for="">SI</label>
+        <h2 class="titulo_0">DETALLE DE SOLICITUD</h2>
         
-        <input type= "checkbox" id="inclusion" name="si">
-        <label for="">NO</label>
-        <input type="checkbox"><br> <br>  
-
-               
-    
-
-    
-        
-        <form action="formul.html" method="post">
-        <label for="inclusion">El solicitante puede aportar iinformacion para la solicitud </label> 
-        <label for="inclusion"></label>
-        <label for="">SI</label>
-        <input type= "checkbox" id="inclusion" name="si">
-        
-        <label for="">NO</label>
-        <input type="checkbox">
-        
-        
-        <label class="inclusion">El sistema genera alerta de actualizacion por cambio de edad </label> 
-        <label for="">SI</label>
-        <input type= "checkbox" id="inclusion" name="si">
-        <label for="">NO</label>
-        <input type= "checkbox"><br> <br>
-        
-        
-        
-        
-        <form action="formul.html" method="post">
-            <label for="inclusion">Que informacion de la escuesta desea modificar </label> 
-            <label for="inclusion"></label>
-            <label for="inclusion">Identificacion </label> 
-
+        <div class="campo">
+            <label for="">TIPO DE SOLICITUD</label>
+            <select name="" id="">
+            <option value=""></option>
+            <option value="">INCLUSION</option>
+            <option value="">MODIFICACION</option>
+            <option value="">RETIRO</option>
             
-            
-            <input type= "checkbox" id="inclusion" name="si">
-            
-            
+            </select>
+            <label class="text">ENCUESTA NUEVA:</label>
+            <label for="si">SI</label>
             <input type="checkbox">
+            <label for="no">NO</label>
+            
+            <input type="checkbox" ><br><br>
+            <label for="text">APORTA INFORMACION PARA LA SOLICITUD:</label>
+            <label for="su">SI</label>
+            <input type="checkbox" name="si" id="si">
+            <label for="nou">NO</label>
+            <input type="checkbox" name="NO" id="NO"><br><br>
             
             
-            <label class="inclusion">El sistema genera alerta de actualizacion por cambio de edad </label> 
-            <input type= "checkbox" id="inclusion" name="si">
-            <label for="">SI</label>
-            <input type="checkbox">
-            <label for="">NO</label><br>
-        
+            
+         
+            
+            <label for="text">¿QUE INFORMACION DESEA MODIFICAR?  </label>
+            <label for="cont">IDENTIFICACION</label>
+            <input type="checkbox" value="">
+            <label for="cont">DATOS DE VIVIENDA</label>
+            <input type="checkbox" name="vivienda" id="vivienda">
+            <label for="cont">DATOS DE HOGAR</label>
+            <input type="checkbox" name="hogar" id="hogar">
+            <label for="cont">DATOS DE PERSONAS</label>
+            <input type="checkbox" name="persona" id="persona">
 
-        
-               
-    
+
             
-      </form>
-</div>
+        </div>
+    </div>
+
+    <div class="tabla-0">
+        <h2 class="titulo_1">PERSONA DEL HOGAR SOLICITANTE</h2>
+        <table>
+            
+        <thead>
+            <tr>
+                <th>Orden</th>
+                <th>Primer Nombre</th>
+                <th>Segundo Nombre</th>
+                <th>Primer Apellido</th>
+                <th>Segundo Apellido</th>
+                <th>Documento</th>
+                <th>Retiro</th>
+                <th>Inclusion</th>
+                <th>Modificacion</th>
+            </tr>
+        </thead>
+        
+            <!-- Repite esta fila para agregar más filas según sea necesario -->
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="texto1"></td>
+                <td><input type="text" name="texto2"></td>
+                <td><input type="text" name="texto3"></td>
+                <td><input type="text" name="texto4"></td>
+                <td><input type="text" name="texto5"></td>
+                <td><input type="checkbox" name="checkbox1"></td>
+                <td><input type="checkbox" name="checkbox2"></td>
+                <td><input type="checkbox" name="checkbox3"></td>
+            </tr>
+            <!-- Repite esta fila para agregar más filas según sea necesario -->
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="texto1"></td>
+                <td><input type="text" name="texto2"></td>
+                <td><input type="text" name="texto3"></td>
+                <td><input type="text" name="texto4"></td>
+                <td><input type="text" name="texto5"></td>
+                <td><input type="checkbox" name="checkbox1"></td>
+                <td><input type="checkbox" name="checkbox2"></td>
+                <td><input type="checkbox" name="checkbox3"></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td><input type="text" name="texto1"></td>
+                <td><input type="text" name="texto2"></td>
+                <td><input type="text" name="texto3"></td>
+                <td><input type="text" name="texto4"></td>
+                <td><input type="text" name="texto5"></td>
+                <td><input type="checkbox" name="checkbox1"></td>
+                <td><input type="checkbox" name="checkbox2"></td>
+                <td><input type="checkbox" name="checkbox3"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="text" name="texto1"></td>
+                <td><input type="text" name="texto2"></td>
+                <td><input type="text" name="texto3"></td>
+                <td><input type="text" name="texto4"></td>
+                <td><input type="text" name="texto5"></td>
+                <td><input type="checkbox" name="checkbox1"></td>
+                <td><input type="checkbox" name="checkbox2"></td>
+                <td><input type="checkbox" name="checkbox3"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="text" name="texto1"></td>
+                <td><input type="text" name="texto2"></td>
+                <td><input type="text" name="texto3"></td>
+                <td><input type="text" name="texto4"></td>
+                <td><input type="text" name="texto5"></td>
+                <td><input type="checkbox" name="checkbox1"></td>
+                <td><input type="checkbox" name="checkbox2"></td>
+                <td><input type="checkbox" name="checkbox3"></td>
+            </tr>
+           
+        
+            <!-- Repite esta fila para agregar más filas según sea necesario -->
+            <!-- ... -->
+        
+        </table>
+
+    </div>
     
+
+
 </main>
-   </form>
 
     <footer></footer>
     

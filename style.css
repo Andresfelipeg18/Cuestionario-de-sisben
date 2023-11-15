@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #e0dada;
     border-radius: 15px 15px 15px 15px;
-    border: 6px solid rgb(41, 91, 184);
+    border: 3px solid rgb(41, 91, 184);
 
 }
 header{
@@ -64,6 +64,50 @@ header{
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+}
+.formulario-maketa {
+    max-width: 20000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.titulo_0{
+    text-align: center;
+    padding: 20px;
+    height: 1px;
+
+}
+.titulo_1{
+    text-align: center;
+    padding: 20px;
+    height: 1px;
+
+}
+
+
+.tabla-0{
+    width: 100%;
+    margin-top: 40px;
+    height: 480px;
+    background-color: #fff;
+    border-radius: 15px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 22px;
+    text-align: center;
+    font-size: 10px;
+}
+h3 {
+    font-size: 16px; /* Reducí el tamaño del título aquí */
+    margin-bottom: 20px; /* Reducí el espacio debajo del título aquí */
 }
   
  
