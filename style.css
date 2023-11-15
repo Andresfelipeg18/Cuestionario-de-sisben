@@ -1,7 +1,7 @@
 /*jhojan*/
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #e0dada;
+    background-color: grey;
     border-radius: 5px 5px 5px 55px;
     border: 3px solid rgb(41, 91, 184);
 
@@ -74,16 +74,17 @@ header{
   }
   .caja {
       position: relative;
-      width: 20px;
+      width: 40px;
       height: -180px;
       left: -20px;
+      
   
   }
   
   
   .nombre2 {
       position: relative;
-      margin-left: -11.1%;
+      margin-left: -12%;
       height: 20px;
       width: 180px;
    }
@@ -183,7 +184,7 @@ header{
   }
   .si1{
       position: relative;
-      left: -9%;
+      left: -8.5%;
   }
   .No2{
       position: relative;
@@ -196,7 +197,7 @@ header{
   .TIPO1{
       position: relative;
       top: -20PX;
-      left: -4.5%;
+      left: -6%;
   }
   .pp{
       position: relative;
@@ -206,8 +207,8 @@ header{
   }
   .d1{
       position: relative;
-      top: -47px;
-      left: 1013px;
+      top: -20px;
+      left: -7.7%;
   }
   .d2 {
       position: relative;
@@ -352,7 +353,7 @@ header{
 .tabla-0{
     max-width: 20000px;
     margin-top: 40px;
-    height: 350px;
+    height: 370px;
     background-color: #fff;
     border-radius: 15px 10px 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -363,7 +364,7 @@ th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    font-size: 10px;
+    font-size: 22px;
 }
 h3 {
     font-size: 16px; /* Reducí el tamaño del título aquí */
