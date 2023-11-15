@@ -68,263 +68,82 @@ header{
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
     }
-.wwww {
+.caja,.caja1,.caja2, .caja3{
+    display: inline-block;
+    border-radius: 8px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+    }
+    .m11,.m22,.EX2,.EX1,.PP{
+        font-size: 16px;
+        border-radius: 8px;
+        display: inline-block;
+        color: black;
+        text-align: center;
+        line-height: 40px;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;    
+        box-sizing: border-box;         
+
+    }
+    .d3,.d5,.d4,.d6,.w1,.w2{
+        position: relative;
+        top: -40px;
+        border-radius: 8px;
+        display: inline-block;
+        color: black;
+        text-align: left;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;    
+        box-sizing: border-box;         
+        margin-right: 2%;
+
+    }
+    .o,.o1{
+        position: relative;
+        top: -139px;
+        right: -25%;
+        font-size: 16px;
+        border-radius: 8px;
+        display: inline-block;
+        color: black;
+        text-align: right;
+        vertical-align: middle;
+        -webkit-box-sizing: border-box; 
+        -moz-box-sizing: border-box;   
+        box-sizing: border-box;         
+    }
+    .d2{
+        color: black;
+        margin-right: 5%;
+        border-radius: 8px;
+        }
+ .m11,.m22,.EX2,.EX1,.PP,.d2,.N1,.m1,.m2,.E1,.si1,.No2,.TIPO1,.pp,.d1{
+    float: left;
+    margin-right: 2%;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+    }
+
+.p1,.p2,.q1,.q2,.b1,.b2{
     position: relative;
-    top: -20px;
-    left: 1.5%;
-  
-  }
-  .caja {
-      position: relative;
-      width: 40px;
-      height: -180px;
-      margin-left: 200px;
-      
-  
-  }
-  
-  
-  .nombre2 {
-      position: relative;
-      margin-left: -12%;
-      height: 20px;
-      width: 180px;
-   }
-      
-  
-  .caja1 { 
-     position: relative;
-     height: 20px;
-     width: 180px;
-  }
-  .apellido1 {
-      position: relative;
-      top: -20px;
-  }
-  .caja2{
-      position: relative;
-      margin-left: -9.7%;
-      height: 20px;
-      width: 200px;
-  }
-  .apellido2 {
-      position: relative;
-      top: -20px;
-  }
-  .caja3{
-      position: relative;
-      margin-left: -11%;
-      height: 20px;
-      width: 180px;
-  }
-  .m1{
-      position: relative;
-    left: -3%;
-  }
-  .m2{
-      position: relative;
-      left: -3%;
-    
-      
-  }
-  
-  .E2 {
-      position: relative;
-      top: -20px;
-      right: -64%;
-  }
-  .T1 {
-      position: relative;
-      top: -60px;
-      right: -74%;
-  }
-  .T2{
-      position: relative;
-      top: -60px;
-      left: 75%;
-    
-  
-  }
-  .S1{
-      position: relative;
-      top: -20px;
-      left: 2%;
-  }
-  .S11{
-      position: relative;
-      top: -10px;
-      left: -5%;
-  }
-  .titulo{
-    position: relative;
-    top: -18px;
-    margin-left: 500px;
-    
-  }
-  .N1{
-      position: relative;
-      top: -22px;
-      left: 1.5%;
-  
-  }
-  .m11{
-      position: relative;
-      left: -3%;
-  }
-  .m22{
-      position: relative;
-      left: -3%;
-  }
-  .E1{
-      position: relative;
-      top: -20px;
-  }
-  .EX2{left: -3.5%;
-      position: relative;
-      left: -5.5%;
-  }
-  .si1{
-      position: relative;
-      left: -8.5%;
-  }
-  .No2{
-      position: relative;
-      left: -7%;
-  }
-  .EX1{
-      position: relative;
-      left: -7%;
-  }
-  .TIPO1{
-      position: relative;
-      top: -20PX;
-      left: -6%;
-  }
-  .pp{
-      position: relative;
-      height: 23px;
-      width: 10%;
-      left: -14.3%;
-  }
-  .d1{
-      position: relative;
-      top: -45px;
-      margin-left: 1000px;
-  }
-  .d2 {
-      position: relative;
-      height: 20px;
-      width: 15%;
-      top: -45px;
-      margin-left: 1000px;
-  }
-  .f1{
-      position: relative;
-      top: -23px;
-      right: -1.4%;
-  }
-  .f2{
-      position: relative;
-      height: 23px;
-      width: 12%;
-      left: -11.7%;
-  }
-  .a1{
-      position: relative;
-      top: -49px;
-      right: -17%;
-  }
-  .f3{
-      position: relative;
-      height: 23px;
-      width: 12%;
-      left: 3.2%;
-      top: -25.6px;
-  }
-  .p1{
-      position: relative;
-      top: -48px;
-      right: -7%;
-  }
-  .p2{
-      position: relative;
-      width: 7.5%;
-      height: 22px;
-      left: 3.7%;
-      top: -25px;
-  }
-  .q1{
-      position: relative;
-      top: -48px;
-      right: -6%;
-  }
-  .q2{
-      position: relative;
-      width: 10%;
-      height: 22px;
-      left: -3.2%;
-      top: -25px;
-  
-  }
-  .b1{
-      position: relative;
-      top: -48px;
-  }
-  .b2{
-      position: relative;
-      width: 10%;
-      height: 22px;
-      left: -6.4%;
-      top: -25px;
-  }
-  .r1{
-      position: relative;
-      top: -72px;
-      right: -71.8%;
-  }
-  .r2{
-      position: relative;
-      width: 27.5%;
-      height: 19px;
-      left: 60%;
-      top: -52px;
-      text-align: right;
-  }
-  .d3{
-      position: relative;
-      top: -25px;
-      right: -1.5%;
-  
-  }
-  .d4{
-      position: relative;
-      top: -25px;
-      right: 7%;
-  }
-  .d5{
-      position: relative;
-      width: 50%;
-      height: 19px;
-      left: -12%;
-      top: -1px;
-  }
-  .d6{
-      position: relative;
-      width: 13%;
-      height: 19px;
-      left: -12.6%;
-      top: -1px;
-  }
-  .w1{
-      position: relative;
-      top: -25px;
-      right: 8%;
-  }
-  .w2{
-      position: relative;
-      top: -24px;
-      margin-left: 950px;
-  }
+    float: left;
+    margin-right: 2%;
+    left: 26%;
+    top: -40px;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;  
+}
+
+.titulo{
+    text-align: center;
+}
+
  /*pipe*/
 
 .formulario-maketa {
@@ -368,8 +187,8 @@ th, td {
     height: 35px;
 }
 h3 {
-    font-size: 16px; /* Reducí el tamaño del título aquí */
-    margin-bottom: 20px; /* Reducí el espacio debajo del título aquí */
+    font-size: 16px; 
+    margin-bottom: 20px; 
 }
 /*jhojan*/
 .caja_9 {
