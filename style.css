@@ -25,7 +25,8 @@ header{
 
 }
 .caja_0{
-    margin-left: 890px;
+    margin-top: 23px;
+    margin-left: 790px;
     border-radius: 10px 10px 10px 10px;
     width: 400px;
     height: 250px;
@@ -55,16 +56,275 @@ header{
     margin-left: 100px;
 }
 /*jhojan*/
+/*pipe*/
 
 .formulario-container {
     max-width: 20000px;
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    }
+.nombre {
+    position: relative;
+    top: -22px;
+    right: -18px;
+  
+  }
+  .caja {
+      position: relative;
+      width: 20px;
+      height: -180px;
+      left: -20px;
+  
+  }
+  
+  
+  .nombre2 {
+      position: relative;
+      margin-left: -11.1%;
+      height: 20px;
+      width: 180px;
+   }
+      
+  
+  .caja1 { 
+     position: relative;
+     margin-left: -11.1%;
+     height: 20px;
+     width: 180px;
+  }
+  .apellido1 {
+      position: relative;
+      top: -20px;
+  }
+  .caja2{
+      position: relative;
+      margin-left: -9.7%;
+      height: 20px;
+      width: 200px;
+  }
+  .apellido2 {
+      position: relative;
+      top: -20px;
+  }
+  .caja3{
+      position: relative;
+      margin-left: -11%;
+      height: 20px;
+      width: 180px;
+  }
+  .m1{
+      position: relative;
+    left: -3%;
+  }
+  .m2{
+      position: relative;
+      left: -3%;
+    
+      
+  }
+  
+  .E2 {
+      position: relative;
+      top: -20px;
+      right: -64%;
+  }
+  .T1 {
+      position: relative;
+      top: -60px;
+      right: -74%;
+  }
+  .T2{
+      position: relative;
+      top: -60px;
+      left: 75%;
+    
+  
+  }
+  .S1{
+      position: relative;
+      top: -20px;
+      left: 2%;
+  }
+  .S11{
+      position: relative;
+      top: -10px;
+      left: -5%;
+  }
+  .titulo{
+    position: relative;
+    top: -18px;
+    margin-left: 500px;
+    
+  }
+  .N1{
+      position: relative;
+      top: -22px;
+      left: 1.5%;
+  
+  }
+  .m11{
+      position: relative;
+      left: -3%;
+  }
+  .m22{
+      position: relative;
+      left: -3%;
+  }
+  .E1{
+      position: relative;
+      top: -20px;
+  }
+  .EX2{left: -3.5%;
+      position: relative;
+      left: -5.5%;
+  }
+  .si1{
+      position: relative;
+      left: -9%;
+  }
+  .No2{
+      position: relative;
+      left: -7%;
+  }
+  .EX1{
+      position: relative;
+      left: -7%;
+  }
+  .TIPO1{
+      position: relative;
+      top: -20PX;
+      left: -4.5%;
+  }
+  .pp{
+      position: relative;
+      height: 23px;
+      width: 10%;
+      left: -14.3%;
+  }
+  .d1{
+      position: relative;
+      top: -47px;
+      right: -84.2%;
+  }
+  .d2 {
+      position: relative;
+      height: 20px;
+      width: 15%;
+      top: -27px;
+      left: 70%;
+  }
+  .f1{
+      position: relative;
+      top: -23px;
+      right: -1.4%;
+  }
+  .f2{
+      position: relative;
+      height: 23px;
+      width: 12%;
+      left: -11.7%;
+  }
+  .a1{
+      position: relative;
+      top: -49px;
+      right: -17%;
+  }
+  .f3{
+      position: relative;
+      height: 23px;
+      width: 12%;
+      left: 3.2%;
+      top: -25.6px;
+  }
+  .p1{
+      position: relative;
+      top: -48px;
+      right: -7%;
+  }
+  .p2{
+      position: relative;
+      width: 7.5%;
+      height: 22px;
+      left: 3.7%;
+      top: -25px;
+  }
+  .q1{
+      position: relative;
+      top: -48px;
+      right: -6%;
+  }
+  .q2{
+      position: relative;
+      width: 10%;
+      height: 22px;
+      left: -3.2%;
+      top: -25px;
+  
+  }
+  .b1{
+      position: relative;
+      top: -48px;
+  }
+  .b2{
+      position: relative;
+      width: 10%;
+      height: 22px;
+      left: -6.4%;
+      top: -25px;
+  }
+  .r1{
+      position: relative;
+      top: -72px;
+      right: -71.8%;
+  }
+  .r2{
+      position: relative;
+      width: 27.5%;
+      height: 19px;
+      left: 60%;
+      top: -52px;
+      text-align: right;
+  }
+  .d3{
+      position: relative;
+      top: -25px;
+      right: -1.5%;
+  
+  }
+  .d4{
+      position: relative;
+      top: -25px;
+      right: 7%;
+  }
+  .d5{
+      position: relative;
+      width: 50%;
+      height: 19px;
+      left: -12%;
+      top: -1px;
+  }
+  .d6{
+      position: relative;
+      width: 13%;
+      height: 19px;
+      left: -12.6%;
+      top: -1px;
+  }
+  .w1{
+      position: relative;
+      top: -25px;
+      right: 8%;
+  }
+  .w2{
+      position: relative;
+      top: -24px;
+      left: 76.2%;
+  }
+ /*pipe*/
 
-}
 .formulario-maketa {
     max-width: 20000px;
     margin: 20px auto;
@@ -92,7 +352,7 @@ header{
 .tabla-0{
     width: 100%;
     margin-top: 40px;
-    height: 480px;
+    height: 350px;
     background-color: #fff;
     border-radius: 15px 10px 10px 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
@@ -101,7 +361,7 @@ header{
 
 th, td {
     border: 1px solid #ddd;
-    padding: 22px;
+    padding: 11px;
     text-align: center;
     font-size: 10px;
 }
@@ -109,5 +369,88 @@ h3 {
     font-size: 16px; /* Reducí el tamaño del título aquí */
     margin-bottom: 20px; /* Reducí el espacio debajo del título aquí */
 }
+/*jhojan*/
+.caja_9 {
+    max-width: 20000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    
+
+  }
+
+  .title_9 {
+    text-align: center;
+  }
+ 
+  .caja_10 {
+    text-align: right;
+  }
+
+.ministerio {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 25%;
+    height: 25%;
+    box-shadow: 0 0 10px rgba(16, 38, 240, 0.9);
+}
+
+.covid{
+    margin-top: -100px;
+    margin-left: 450px;
+    width: 280px;
+    height: 150px;
+}
+
+.items {
+    color: #000000;
+}
+.items::before{
+    content: "★";
+}.items:first-child{
+    font-weight: bold;
+}
+
+.linea {
+    margin-top:-70px;
+    width: 220px;
+}
+.firma{
+    margin-left: 800px;
+    height: 50px;
+
+}
+
+.huella-box{
+    margin-top: -150px;
+    position: relative;
+}
+
+.cuadrado{
+    margin-left: 1159px;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    padding: 40px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.huella{
+    position: relative;
+    top: -20px;
+    margin-left: 1180px;
+
+}
+
+.indice {
+    position: relative;
+    top: -15px;
+    margin-left: 1150px;
+}
+
+/*jhojan*/
+
   
  
